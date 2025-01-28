@@ -1,4 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns="http://java.sun.com/xml/ns/javaee" version="3.0">
+    <!-- Sum Servlet -->
     <servlet>
         <servlet-name>SumServlet</servlet-name>
         <servlet-class>com.servletExample.Sum</servlet-class>
@@ -7,5 +9,14 @@
         <servlet-name>SumServlet</servlet-name>
         <url-pattern>/sum</url-pattern>
     </servlet-mapping>
+
+    <!-- Total Servlet -->
+    <servlet>
+        <servlet-name>totalServlet</servlet-name>
+        <servlet-class>com.servletExample.TotalServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>totalServlet</servlet-name>
+        <url-pattern>/total</url-pattern>
+    </servlet-mapping>
 </web-app>
-  
