@@ -1,0 +1,11 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="3.0">
+    <servlet>
+        <servlet-name>SumServlet</servlet-name>
+        <servlet-class>com.servletExample.Sum</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SumServlet</servlet-name>
+        <url-pattern>/sum</url-pattern>
+    </servlet-mapping>
+</web-app>
+  
